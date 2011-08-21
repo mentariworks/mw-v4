@@ -1,0 +1,153 @@
+/*
+Project's name:
+Description:
+Version:
+Author:
+Last date modified:
+
+Using MentariCSS Framework
+Get it from http://www.mentaricss.com
+*/
+
+/* Import external stylesheet */
+@import url('mentari.css');
+
+/* Common HTML tags */
+body
+{
+	font:90%/150% arial,sans-serif,verdana;
+	background:#fff;
+	color:#444;
+	border-top:5px solid #000;
+}
+
+a
+{
+	text-decoration:none;
+	color:#333;
+}
+
+/* Wrapping */
+#wrapper
+{
+	width:960px;
+	margin:0 auto;
+}
+
+/* Header section */
+#header
+{
+	margin-top:50px;
+	border-bottom:1px solid #eee;
+	padding-bottom:40px;
+}
+
+#masthead
+{
+	width:150px;
+}
+
+#masthead img
+{
+	width:45px;
+	height:45px;
+	float:left;
+	margin:2px 10px 0 0;
+}
+
+#masthead h1
+{
+	font-size:1em;
+	margin-top:6px;
+}
+
+#masthead p
+{
+	margin-top:-8px;
+	font-size:0.9em;
+}
+
+#navigation
+{
+	width:810px;
+	font-size:0.9em;
+}
+
+#navigation ul
+{
+	display:inline;
+	list-style:none;
+}
+
+#navigation ul li
+{
+	float:right;
+	margin:6px 0 0 27px;
+	border-left:1px solid #eee;
+	padding-left:27px;
+}
+
+#navigation a, #masthead p a
+{
+	color:#999;
+}
+
+#navigation a:hover, #masthead p a:hover
+{
+	color:#444;
+	border-bottom:1px solid #eee;
+}
+
+#navigation strong
+{
+	display:block;
+}
+
+/* Content section */
+#content
+{
+	padding:30px 0 40px 0;
+	font-size:3em;
+	font-family:georgia, "Times New Roman", arial;
+	color:#333;
+	text-align:center;
+}
+
+/* Portfolio */
+#portfolio
+{
+	margin:0 0 60px 0;
+}
+
+#portfolio img
+{
+}
+
+.list
+{
+	margin-bottom:40px;
+}
+
+#portfolio .desc
+{
+	width:500px;
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+/* Sidebar section */
+#sidebar
+{
+	
+}
+
+/* Footer section */
+#footer
+{
+	text-align:center;
+	border-top:1px solid #eee;
+	padding:30px 0 50px 0;
+	font-size:0.9em;
+	color:#666;
+}
