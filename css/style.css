@@ -81,7 +81,7 @@ a
 
 #navigation ul li
 {
-	float:right;
+	float:left;
 	margin:6px 0 0 27px;
 	border-left:1px solid #eee;
 	padding-left:27px;
